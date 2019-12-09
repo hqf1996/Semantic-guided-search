@@ -1,5 +1,6 @@
 # aStarDemo
-An example of A* algorithm
+1. aStarDema--> A* based Semantic Similarity Top-k Search on KGs
+2. An example of A* algorithm --> A simple Demo for our paper https://arxiv.org/pdf/1910.06584.pdf. Full version will be updated later.
 
 ## myOpenKE project
 
