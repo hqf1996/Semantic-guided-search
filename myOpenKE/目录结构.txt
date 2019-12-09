@@ -1,0 +1,11 @@
+训练模型程序：~/myOpenKE/my_train_transe.py
+利用模型产生的结果程序：~/myOpenKE/my_test_transe.py
+
+实验的输入数据：/root/myOpenKE/benchmarks/experiment
+	分automobile(子图)和allData(全图)
+
+实验训练好的模型：/root/myOpenKE/my/experimentModel
+	分automobile(子图)和allData(全图)，每一个下面细分为iteration50~500，代表迭代次数，每个迭代次数的文件夹下面分50~300文件夹，代表维度，里面存放着相应迭代次数和维度的模型
+
+实验利用模型产生的结果：/root/myOpenKE/result/experiment
+	分automobile(子图)和allData(全图)，每一个下面细分为iteration50~500，代表迭代次数，automobile每个迭代次数的文件夹下面分part_0.1_0.4_0.8_50~300.txt,表示不同维度下的结果，allData每个迭代次数的文件夹下面分all_50~300.txt，表示不同维度下的结果
