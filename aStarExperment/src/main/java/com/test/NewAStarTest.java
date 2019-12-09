@@ -22,7 +22,7 @@ public class NewAStarTest {
         /**德国的汽车**/
         RDFGraph graph = createGraph("D:\\JavaProject\\aStarExperment\\result\\Automobile\\RDF\\AutoJacobian\\entity.txt",
                 "D:\\JavaProject\\aStarExperment\\result\\Automobile\\RDF\\AutoJacobian\\edge.txt");
-        String simFile = "D:\\JavaProject\\aStarExperment\\result\\TransE子图\\automobile\\iteration500\\part_0.1_0.4_0.8_200.txt";
+        String simFile = "D:\\JavaProject\\aStarExperment\\result\\TransEResult\\automobile\\iteration500\\part_0.1_0.4_0.8_200.txt";
 
         ReadCarSimilarity read = new ReadCarSimilarity(simFile, "assembly");
         Map<String, Double> map = read.getMap();
